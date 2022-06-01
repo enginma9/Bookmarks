@@ -1,0 +1,138 @@
+body {
+  background-color: #000000;
+  text-align: Center;
+  font: small-caps bold 20px Arial, serif;
+  color: #ddddff;
+}
+textarea{
+  border: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #00ffff99;
+  background-color: rgba(130,0,130,0.8);
+  animation: mymove1 5s;
+  animation-iteration-count: 1;
+  color: #ddddff;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+
+.dul li:before {
+	content: "☙";
+	position: absolute;
+	left: 0;
+}
+
+div{
+  border: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #00ffff99;
+  background-color: rgba(130,0,130,0.8);
+  animation: mymove1 5s;
+  animation-iteration-count: 1;
+  padding: 20px;
+  position: relative;
+  top: 0;
+}
+
+@keyframes mymove1 {
+  from {background-color: black;}
+  to {background-color: rgba(130,0,130,0.8);}
+}
+
+@keyframes mymove2 {
+  from {background-color: black;}
+  to {background-color: rgba(100,0,130,0.8);}
+}
+
+h1 {
+  color: #ddddff;
+}
+p {
+  color: #ddddff;
+}
+a {
+  text-decoration: none;
+  color: #ddddff;
+}
+
+a.glow, a.glow:hover, a.glow:focus
+{
+	text-decoration: none;
+	color: #eee;
+	text-shadow: none;
+	-webkit-transition: 300ms linear 0s;
+	-moz-transition: 300ms linear 0s;
+	-o-transition: 300ms linear 0s;
+	transition: 300ms linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover, a.glow:focus
+{
+	color: #000;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+.textshadow a.backlit:hover, .textshadow a.backlit:focus
+{
+	color: #336;
+}
+
+#left{
+  width: 300px;
+  height: 500px;
+  text-align: left;
+}
+
+.right{
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+  text-align: left;
+}
+
+.right::-webkit-scrollbar {
+    display: none;
+}
+
+.center{
+  animation: mymove2 5s;
+  animation-iteration-count: 1;
+  background-color: rgba(100,0,130,0.8);
+
+}
+
+.DoubleDice{
+  background-color: rgba(155,0,175,0.8);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+#Dice{
+  text-align: center;
+  line-height: 20px;
+}
+
+#Dice_Cube{
+  font-size:32px;
+}
+#Top_Right_Div{
+  background-color: rgba(130,0,130,0.8);
+  width: 300px;
+  border-radius: 150px;
+  padding: 0;
+  text-align: center;
+}
+#TRImg{
+  height: auto;
+  width: 200px;
+  border-radius: 100px;
+}
