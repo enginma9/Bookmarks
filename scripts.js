@@ -109,5 +109,5 @@ function Pick_Food(){
      out = "&#127922;"
     break;
   }
-  document.getElementById("Foodie").innerHTML = '<h1><a href="Foodie/" target="blank" rel="noopener noreferrer">' + out + '</a></h1>';
+  document.getElementById("Foodie").innerHTML = '<h1>' + out + '</h1>';
 }
