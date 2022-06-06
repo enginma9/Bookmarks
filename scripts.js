@@ -1,4 +1,4 @@
-window.onload = Dice_All();
+window.onload = Dice_Roll();
 
 function Dice_Roll(){
   let d = 1 + Math.floor(Math.random()*6);
@@ -30,42 +30,42 @@ function Dice_Roll2(){
   let result = "Q";
   if(roll == 1){ result = "H";  }
   else{result = "T"; }
-  document.getElementById("DoubleDice_2").innerHTML = result;
+  document.getElementById("Dice_2").innerHTML = result;
 }
 
 function Dice_Roll4(){
   let roll = 1 + Math.floor(Math.random()*4);
-  document.getElementById("DoubleDice_4").innerHTML = roll;
+  document.getElementById("Dice_4").innerHTML = roll;
 }
 
 function Dice_Roll6(){
   let roll = 1 + Math.floor(Math.random()*6);
-  document.getElementById("DoubleDice_6").innerHTML = roll;
+  document.getElementById("Dice_6").innerHTML = roll;
 }
 
 function Dice_Roll8(){
   let roll = 1 + Math.floor(Math.random()*8);
-  document.getElementById("DoubleDice_8").innerHTML = roll;
+  document.getElementById("Dice_8").innerHTML = roll;
 }
 
 function Dice_Roll10(){
   let roll = Math.floor(Math.random()*10);
-  document.getElementById("DoubleDice_10").innerHTML = roll;
+  document.getElementById("Dice_10").innerHTML = roll;
 }
 
 function Dice_Roll100(){
   let roll = 10 * Math.floor(Math.random()*10);
-  document.getElementById("DoubleDice_2x10").innerHTML = roll;
+  document.getElementById("Dice_2x10").innerHTML = roll;
 }
 
 function Dice_Roll12(){
   let roll = 1 + Math.floor(Math.random()*12);
-  document.getElementById("DoubleDice_12").innerHTML =  roll;
+  document.getElementById("Dice_12").innerHTML =  roll;
 }
 
 function Dice_Roll20(){
   let roll = 1 + Math.floor(Math.random()*20);
-  document.getElementById("DoubleDice_20").innerHTML = roll;
+  document.getElementById("Dice_20").innerHTML = roll;
 }
 
 function Dice_All(){
