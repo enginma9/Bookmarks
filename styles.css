@@ -46,17 +46,22 @@ a.glow:hover, a.glow:focus
 }
 
 .turn{
-  transform: rotate(-90deg);
+  /*transform: rotate(-90deg);*/
+  width: 200px;
+  text-orientation: sideways;
+  margin-left: -25px;
+  margin-top: 10px;
 }
 
 .clip{
   background: linear-gradient(to bottom, hsl(180, 100%, 25%), hsl(180, 100%, 20%), hsl(180, 100%, 25%));
+
    background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 60px;
   font-weight: bold;
-  text-align: left;
+  text-align: right;
   text-decoration: none;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
